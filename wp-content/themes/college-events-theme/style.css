@@ -1,0 +1,57 @@
+/*
+Theme Name: College Events Theme
+Theme URI: http://example.com/college-events-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme for managing college events.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: college-events-theme
+Tags: custom-post-type, events, college
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+.event {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.event-summary {
+    background: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 700px;
+    border-bottom: 1px solid #ddd;
+}
+
+.event-summary h2 {
+    margin-top: 0;
+}
+
+.event-summary p {
+    margin: 5px 0;
+}
